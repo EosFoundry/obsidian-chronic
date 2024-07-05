@@ -1,0 +1,10 @@
+{
+    "id": "obsidian-chronic",
+    "name": "Chronic",
+    "version": "1.0.0",
+    "minAppVersion": "0.15.0",
+    "description": "Demonstrates some of the capabilities of the Obsidian API.",
+    "author": "James Liu",
+    "authorUrl": "https://github.com/EosFoundry/obsidian-chronic#readme",
+    "isDesktopOnly": false
+}

@@ -1,8 +1,9 @@
 {
   "name": "obsidian-chronic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An obsidian plugin to automagically organise and link campaign notes",
   "main": "main.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/EosFoundry/obsidian-chronic/issues"
   },
-  "homepage": "https://github.com/EosFoundry/obsidian-chronic#readme"
+  "homepage": "https://github.com/EosFoundry/obsidian-chronic#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.14.9",
+    "obsidian": "^1.5.7-1",
+    "rollup": "^4.18.0",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.3"
+  }
 }
